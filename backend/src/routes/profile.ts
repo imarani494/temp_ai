@@ -5,7 +5,7 @@ import { updateProfile } from '../temporal/workflows';
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  // fetch from DB
+ 
   res.json({ profile: req.user });
 });
 
